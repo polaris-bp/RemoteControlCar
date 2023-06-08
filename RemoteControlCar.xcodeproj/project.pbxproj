@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		525543E12A3203AE005C5B41 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 525543E02A3203AE005C5B41 /* main.c */; };
+		525543E92A3203CF005C5B41 /* lcd2.c in Sources */ = {isa = PBXBuildFile; fileRef = 525543E82A3203CF005C5B41 /* lcd2.c */; };
+		525543EC2A3203EA005C5B41 /* lcd1.c in Sources */ = {isa = PBXBuildFile; fileRef = 525543EB2A3203EA005C5B41 /* lcd1.c */; };
+		525543EF2A32040B005C5B41 /* seg.c in Sources */ = {isa = PBXBuildFile; fileRef = 525543EE2A32040B005C5B41 /* seg.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		525543DD2A3203AE005C5B41 /* RemoteControlCar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoteControlCar; sourceTree = BUILT_PRODUCTS_DIR; };
 		525543E02A3203AE005C5B41 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		525543E72A3203CF005C5B41 /* lcd2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lcd2.h; path = RemoteControlCar/lcd2.h; sourceTree = "<group>"; };
+		525543E82A3203CF005C5B41 /* lcd2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = lcd2.c; path = RemoteControlCar/lcd2.c; sourceTree = "<group>"; };
+		525543EA2A3203EA005C5B41 /* lcd1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lcd1.h; path = RemoteControlCar/lcd1.h; sourceTree = "<group>"; };
+		525543EB2A3203EA005C5B41 /* lcd1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = lcd1.c; path = RemoteControlCar/lcd1.c; sourceTree = "<group>"; };
+		525543ED2A32040B005C5B41 /* seg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = seg.h; path = RemoteControlCar/seg.h; sourceTree = "<group>"; };
+		525543EE2A32040B005C5B41 /* seg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = seg.c; path = RemoteControlCar/seg.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,12 @@
 		525543D42A3203AE005C5B41 = {
 			isa = PBXGroup;
 			children = (
+				525543E72A3203CF005C5B41 /* lcd2.h */,
+				525543E82A3203CF005C5B41 /* lcd2.c */,
+				525543EA2A3203EA005C5B41 /* lcd1.h */,
+				525543EB2A3203EA005C5B41 /* lcd1.c */,
+				525543ED2A32040B005C5B41 /* seg.h */,
+				525543EE2A32040B005C5B41 /* seg.c */,
 				525543DF2A3203AE005C5B41 /* RemoteControlCar */,
 				525543DE2A3203AE005C5B41 /* Products */,
 			);
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525543E92A3203CF005C5B41 /* lcd2.c in Sources */,
+				525543EF2A32040B005C5B41 /* seg.c in Sources */,
+				525543EC2A3203EA005C5B41 /* lcd1.c in Sources */,
 				525543E12A3203AE005C5B41 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
